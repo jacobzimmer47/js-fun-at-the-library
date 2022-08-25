@@ -3,6 +3,15 @@ function createTitle(titleIdea) {
   return `The ${bookIdea}`
 }
 
+function buildMainCharacter(name, age, pronouns) {
+  var character = {
+    name: name,
+    age: age,
+    pronouns: pronouns
+  }
+  return character
+} 
+
 
 
 
@@ -11,7 +20,7 @@ function createTitle(titleIdea) {
 
 module.exports = {
   createTitle,
-  // buildMainCharacter,
+  buildMainCharacter,
   // saveReview,
   // calculatePageCount,
   // writeBook,
