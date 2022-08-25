@@ -1,6 +1,13 @@
-function createTitle() {
-  
+function createTitle(titleIdea) {
+  var bookIdea = titleIdea
+  return `The ${bookIdea}`
 }
+
+
+
+
+
+
 
 module.exports = {
   createTitle,
