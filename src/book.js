@@ -20,11 +20,9 @@ function saveReview(customerReview, reviews) {
 }
 
 function calculatePageCount(bookTitle) {
-for(var i = 0; i < bookTitle.length; i++){
- return bookTitle.length * 20
-
-}
-
+  for(var i = 0; i < bookTitle.length; i++){
+    return bookTitle.length * 20
+  }
 }
 
 
